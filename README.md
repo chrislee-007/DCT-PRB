@@ -1,4 +1,5 @@
-# This project code base on AICITY 2023 Challenge ([Track5](https://www.aicitychallenge.org/)) -- Team : NYCU-Road Beast
+# DCT-PRB: A Dynamic Conflict Tracker Model for Drone-Based Traffic Hotspot Detection
+# by LI,GUAN-YI
 
 ## Inference (tracking)
 On video:
