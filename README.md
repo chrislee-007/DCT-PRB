@@ -22,6 +22,6 @@ You will get the submmision file in 'runs/detect/exp*'
 ## Reference 
 Detection code is based on PRB-FPN [here](https://github.com/pingyang1117/PRBNet_PyTorch)
 
-Tracking code is based on SMILETrack(multi-object-tracking-on-mot20 2024-SOTA) [here](https://github.com/NYCU-AICVLab/AICITY_2023_Track5)
+Tracking code is based on SMILETrack(Multi-Object-Tracking 2024-SOTA) [here](https://github.com/NYCU-AICVLab/AICITY_2023_Track5)
 
 version 1.1.1 by LI,GUAN-YI 2024/07/30
