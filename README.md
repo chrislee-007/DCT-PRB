@@ -9,7 +9,7 @@
 </div>
 
 ## Inference (Detection ＆ tracking)
-Inference weight can be downloaded ([here](https://drive.google.com/drive/folders/1NkIa2MUWFOcpTFnU3EeD34-XIhFjWGqS?usp=sharing)).
+Inference weight ＆ Test video can be downloaded ([here](https://drive.google.com/drive/folders/1NkIa2MUWFOcpTFnU3EeD34-XIhFjWGqS?usp=sharing)).
 
 On video:
 ``` shell
