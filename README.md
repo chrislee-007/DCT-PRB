@@ -1,5 +1,5 @@
 # DCT-PRB: A Dynamic Conflict Tracker Model for Drone-Based Traffic Hotspot Detection
-# by LI,GUAN-YI
+
 
 ## Inference (tracking)
 On video:
@@ -12,5 +12,4 @@ You will get the submmision file in 'runs/detect/exp*'
 ## Reference 
 Detection code is based on [PRBNet_Pytorch](https://github.com/pingyang1117/PRBNet_PyTorch)
 Tracking code is based on [Track5](https://github.com/NYCU-AICVLab/AICITY_2023_Track5)
-
-
+## by LI,GUAN-YI
