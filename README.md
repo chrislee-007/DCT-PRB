@@ -1,6 +1,6 @@
 # DCT-PRB: A Dynamic Conflict Tracker Model for Drone-Based Traffic Hotspot Detection
 
-## Potential pedestrian-vehicle conflict detection and visualization
+## Real-Time Potential pedestrian-vehicle conflict detection and visualization
 
 <div align="center">
     <a href="./">
@@ -19,8 +19,8 @@ On video:
 You will get the submmision file in 'runs/detect/exp*'
 
 ## Reference 
-Detection code is based on [PRBNet_Pytorch](https://github.com/pingyang1117/PRBNet_PyTorch)
+Detection code is based on PRB-FPN [PRBNet_Pytorch](https://github.com/pingyang1117/PRBNet_PyTorch)
 
-Tracking code is based on [Track5](https://github.com/NYCU-AICVLab/AICITY_2023_Track5)
+Tracking code is based on SMILETrack [Track5](https://github.com/NYCU-AICVLab/AICITY_2023_Track5)
 
 version 1.1.1 by LI,GUAN-YI 2024/07/30
