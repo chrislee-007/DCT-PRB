@@ -1,13 +1,5 @@
 # This project code base on AICITY 2023 Challenge ([Track5](https://www.aicitychallenge.org/)) -- Team : NYCU-Road Beast
 
-## System workflow
-
-<div align="center">
-    <a href="./">
-        <img src="./figure/system workflow.png" width="80%"/>
-    </a>
-</div>
-
 ## Inference (tracking)
 On video:
 ``` shell
@@ -17,4 +9,7 @@ On video:
 You will get the submmision file in 'runs/detect/exp*'
 
 ## Reference 
-This code is based on [PRBNet_Pytorch](https://github.com/pingyang1117/PRBNet_PyTorch)
+Detection code is based on [PRBNet_Pytorch](https://github.com/pingyang1117/PRBNet_PyTorch)
+Tracking code is based on [Track5](https://github.com/NYCU-AICVLab/AICITY_2023_Track5)
+
+
