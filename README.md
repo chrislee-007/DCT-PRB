@@ -23,4 +23,4 @@ Detection code is based on [PRBNet_Pytorch](https://github.com/pingyang1117/PRBN
 
 Tracking code is based on [Track5](https://github.com/NYCU-AICVLab/AICITY_2023_Track5)
 
-by LI,GUAN-YI 2024/07/30
+version 1.1.1 by LI,GUAN-YI 2024/07/30
