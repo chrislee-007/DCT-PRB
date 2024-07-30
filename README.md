@@ -1,5 +1,8 @@
 # DCT-PRB: A Dynamic Conflict Tracker Model for Drone-Based Traffic Hotspot Detection
--Real-Time potential pedestrian-vehicle conflict detection and visualization
+-Real-Time potential pedestrian-vehicle conflict detection and visualization-
+
+## Abstract
+we combined DCT-PRB with SMILEtrack for real-time, accurate target tracking. We designed the Dynamic Conflict Tracker (DCT), which includes three constraints: pedestrian location, vehicle speed, and DCT overlap ratio, to determine potential conflicts and enhance detection reliability. We also implemented an interactive lane contour drawing interface to help users quickly delineate observation areas. After detection, the model can immediately generate potential conflict hotspot maps based on the results. This makes it the fastest and most versatile accident hotspot detection model, suitable for roads in any country or region.
 
 <div align="center">
     <a href="./">
