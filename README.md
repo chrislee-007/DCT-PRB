@@ -1,5 +1,12 @@
 # DCT-PRB: A Dynamic Conflict Tracker Model for Drone-Based Traffic Hotspot Detection
 
+## System workflow
+
+<div align="center">
+    <a href="./">
+        <img src="heatmap_overlay.jpg" width="80%"/>
+    </a>
+</div>
 
 ## Inference (tracking)
 On video:
