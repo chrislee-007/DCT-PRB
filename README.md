@@ -1,6 +1,6 @@
 # DCT-PRB: A Dynamic Conflict Tracker Model for Drone-Based Traffic Hotspot Detection
 
-## System workflow
+## Potential pedestrian-vehicle conflict detection and visualization
 
 <div align="center">
     <a href="./">
