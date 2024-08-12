@@ -14,8 +14,9 @@ Dataset & Inference weight ＆ Test video can be downloaded ([here](https://driv
 
 On video:
 ``` shell
- python DCT-PRB.py 
+ python interactive_polygon.py 
 ```
+
 ``` shell
  python DCT-PRB.py --weights weights/best.pt --source video/dowload/<video path (*.mp4)> --conf 0.5 --save-txt --img-size 1280 --trace --view-img --draw --classes 0 3 4 5 6 7 8 9
 ```
