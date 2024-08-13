@@ -27,7 +27,7 @@ You will get the submmision file in 'runs/detect/exp*'
 ## Troubleshooting
 Q-> Path error problem.
 
-A-> Set your folder_path and video_path in interactive_polygon.py＆ DCT-PRB.py.
+A-> Set your folder_path and video_path in interactive_polygon.py ＆ DCT-PRB.py.
 ``` shell
 ＃sample 1
 if __name__ == "__main__":
