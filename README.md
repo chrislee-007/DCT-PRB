@@ -12,8 +12,23 @@ We combined DCT-PRB with SMILEtrack for real-time, accurate target tracking. We 
 ## How to use (Detection ＆ tracking)
 Dataset & Inference weight ＆ Test video can be downloaded ([here](https://drive.google.com/drive/folders/18JZ7gxwDMHOE4I0XSTMWlkf0Md4e_oL6?usp=sharing)).
 
-1.Set the folder_path and video_path in interactive_polygon.py (you can change the scale variable to adjust the size of the input movie)
+1.Run interactive_polygon.py to set the ROI (viewing area).
 ``` shell
+ python interactive_polygon.py 
+```
+
+2.Run DCT-PRB.py for potential conflict detection. 
+``` shell
+ python DCT-PRB.py --weights weights/best.pt --source video/dowload/<video path (*.mp4)> --conf 0.5 --save-txt --img-size 1280 --trace --view-img --draw --classes 0 3 4 5 6 7 8 9
+```
+
+You will get the submmision file in 'runs/detect/exp*'
+
+## Troubleshooting
+Q-> Path error problem.
+A-> Set your folder_path and video_path in interactive_polygon.py＆ DCT-PRB.py.
+``` shell
+＃sample 1
 if __name__ == "__main__":
     folder_path = '/home/chris007/python/PRB_SM/AICITY_2023_Track5-main/AICITY_2023_Track5-main/polygon_counter'
     clear_folder(folder_path)  
@@ -21,20 +36,11 @@ if __name__ == "__main__":
     draw_polygon(video_path)
 ```
 
-2.Add the following program to common.py and replace Conv in (your).yaml.
-
-
-
-3.Add Conv_SWS to the parse_model function in yolo.py so that it can be used by .yaml.
+Q-> The video is too large for your screen.
+A-> you can change the scale variable to adjust the size of the input video.
 ``` shell
- python interactive_polygon.py 
+ scale = 0.7
 ```
-On video:
-``` shell
- python DCT-PRB.py --weights weights/best.pt --source video/dowload/<video path (*.mp4)> --conf 0.5 --save-txt --img-size 1280 --trace --view-img --draw --classes 0 3 4 5 6 7 8 9
-```
-
-You will get the submmision file in 'runs/detect/exp*'
 
 ## Reference 
 Detection code is based on PRB-FPN [here](https://github.com/pingyang1117/PRBNet_PyTorch)
