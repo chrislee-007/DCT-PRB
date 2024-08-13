@@ -31,9 +31,9 @@ A-> Set your folder_path and video_path in interactive_polygon.py ＆ DCT-PRB.py
 ``` shell
 ＃sample 1
 if __name__ == "__main__":
-    folder_path = '/（your_path）/polygon_counter'
+    folder_path = '/（your_path）/polygon_counter' #This path is used for ROI (polygon) storage.
     clear_folder(folder_path)  
-    video_path = '/（your_path）/video/dowload/053101.mp4'  
+    video_path = '/（your_path）/video/dowload/053101.mp4'#Read the first frame of the test video
     draw_polygon(video_path)
 ```
 
