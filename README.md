@@ -26,6 +26,7 @@ You will get the submmision file in 'runs/detect/exp*'
 
 ## Troubleshooting
 Q-> Path error problem.
+
 A-> Set your folder_path and video_path in interactive_polygon.py＆ DCT-PRB.py.
 ``` shell
 ＃sample 1
@@ -37,6 +38,7 @@ if __name__ == "__main__":
 ```
 
 Q-> The video is too large for your screen.
+
 A-> you can change the scale variable to adjust the size of the input video.
 ``` shell
  scale = 0.7
